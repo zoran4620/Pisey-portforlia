@@ -19,7 +19,11 @@
     padding: 5px auto;
 }
 
-#text-logo{margin left 30%; margin-top:8px;}
+#text-logo{
+    margin left 30%;
+    margin-top:8px;
+    font-size: 80%;
+}
 
 body {
     
