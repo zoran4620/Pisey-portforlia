@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+* {
+    font-family: 'Spartan', sans-serif;
+    list-style: none;
+    margin: 0;
+}
+#logo {
+    width: 18%;
+}
+.navbar {
+    background-image: linear-gradient(green, #55E143);
+    border-radius: 0px;
+}
+.navbar a {
+    color: white;
+    font-size: 130%;
+}
+.navbar a:hover {
+    color: white;
+}
+.dropdown-menu {
+    background-image: linear-gradient(#55E143, #55E143);
+}
+.dropdown-menu a:hover{
+    text-decoration: underline;
+}
+.dropdown-item {
+    background-image: linear-gradient(#55E143, #55E143);
+}
+.carousel-item {
+    height: 60%;
+}
+.carousel {
+    margin-top: 10%;
+}
+hr {
+    color: grey;
+}
+#appSummary{
+    text-align: center;
+}
+.card-deck {
+    text-align: center;
+}
+.card {
+    margin-top: 3%;
+}
+.box-shadow {
+    box-shadow: 10px 10px #8A9289;
+}
+.image {
+    width: 100%;
+    height: auto;
+}
+#overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #55E143;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+}
+#container1:hover #overlay1 {
+    transform: scale(1);
+}
+#text1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #55E143;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+}
+#container2:hover #overlay2 {
+    transform: scale(1);
+}
+#text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#overlay3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #55E143;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+}
+#container3:hover #overlay3 {
+    transform: scale(1);
+}
+#text3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#overlay4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #55E143;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+}
+#container4:hover #overlay4 {
+    transform: scale(1);
+}
+#text4 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#footer {
+    background-color: #55E143;
+    margin-top: 20px;
+    text-align: center;
+}
+.button {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: black 3px solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+.socialMediaIcon {
+    width: 5%;
+}

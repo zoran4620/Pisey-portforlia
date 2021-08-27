@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+* {
+    font-family: 'Spartan', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#sunset {
+    width: 55%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.paintings {
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 25%;
+}
+.links {
+    text-decoration: none;
+    color: black;
+    float:left;
+    border: black 3px solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 20%;
+}
+iframe {
+    margin-left: 5%;
+}
+figcaption a{
+    margin-left: 5%;
+    color: black;
+}
